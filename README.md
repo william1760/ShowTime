@@ -156,20 +156,6 @@ APP_DIR="<e.g /Users/User1/Projects/ShowTime>"
 
 ---
 
-## Launch via keyboard shortcut (macOS Shortcuts app)
-
-1. Open **Shortcuts** → **+** New Shortcut
-2. Add action: **Run Shell Script**, paste:
-
-```bash
-PYTHON=$(which python3)
-"$PYTHON" "$APP_DIR/showtime.py" > /dev/null 2>&1 &
-```
-
-3. **⚙ → Add Keyboard Shortcut** → assign your combo (e.g. `⌥⌘S`)
-
----
-
 ## File structure
 
 ```
