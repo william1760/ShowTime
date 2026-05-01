@@ -163,7 +163,7 @@ APP_DIR="<e.g /Users/User1/Projects/ShowTime>"
 
 ```bash
 PYTHON=$(which python3)
-"$PYTHON" /path/to/ShowTime/showtime.py
+"$PYTHON" "$APP_DIR/showtime.py" > /dev/null 2>&1 &
 ```
 
 3. **⚙ → Add Keyboard Shortcut** → assign your combo (e.g. `⌥⌘S`)
