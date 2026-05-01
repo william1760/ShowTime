@@ -148,7 +148,7 @@ NYC = America/New_York
 ```bash
 PYTHON="<ptyhon location e.g. /usr/local/bin/python3>"
 APP_DIR="<e.g /Users/User1/Projects/ShowTime>"
-"$PYTHON" "$APP_DIR/showtime.py"
+"$PYTHON" "$APP_DIR/showtime.py" > /dev/null 2>&1 &
 ```
 
 4. Save as `ShowTime.app` in the **same folder** as `showtime.py`
