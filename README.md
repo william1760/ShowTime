@@ -1,5 +1,5 @@
 
-# ShowTime
+# ShowTime (MasOS)
 
 A lightweight macOS desktop world clock widget built with Python and tkinter.  
 Displays live times for multiple timezones in a borderless, always-on-top floating window.  
@@ -146,14 +146,8 @@ NYC = America/New_York
 3. Paste:
 
 ```bash
-PYTHON=$(which python3)
-
-if [ -z "$PYTHON" ]; then
-    osascript -e 'display alert "python3 not found in PATH"'
-    exit 1
-fi
-
-APP_DIR=$(dirname "$(osascript -e 'tell application "Finder" to get POSIX path of (path to me)')")
+PYTHON="<ptyhon location e.g. /usr/local/bin/python3>"
+APP_DIR="<e.g /Users/User1/Projects/ShowTime>"
 "$PYTHON" "$APP_DIR/showtime.py"
 ```
 
