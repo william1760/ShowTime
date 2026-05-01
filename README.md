@@ -1,13 +1,15 @@
 
 # ShowTime
-<img width="237" height="386" alt="image" src="https://github.com/user-attachments/assets/23d33ea9-b217-466c-a0f4-2eaaa610a046" />
-
-<img width="658" height="742" alt="image" src="https://github.com/user-attachments/assets/11add5bd-dc78-460c-86a9-a8eb412e680d" />
-
 
 A lightweight macOS desktop world clock widget built with Python and tkinter.  
 Displays live times for multiple timezones in a borderless, always-on-top floating window.  
 A 24-hour time conversion table is one double-click away.
+
+
+<img width="237" height="386" alt="image" src="https://github.com/user-attachments/assets/23d33ea9-b217-466c-a0f4-2eaaa610a046" />
+
+<img width="658" height="742" alt="image" src="https://github.com/user-attachments/assets/11add5bd-dc78-460c-86a9-a8eb412e680d" />
+
 
 ---
 
