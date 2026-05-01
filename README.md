@@ -181,7 +181,3 @@ ShowTime/
 ```
 
 ---
-
-## License
-
-MIT
